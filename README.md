@@ -5,6 +5,7 @@
   - [安装](#安装)
     - [Swift Package Manager](#swift-package-manager)
   - [使用](#使用)
+    - [使用流程](#使用流程)
     - [头文件引用](#头文件引用)
     - [接口头文件查看](#接口头文件查看)
     - [初始化SDK](#初始化sdk)
@@ -56,6 +57,9 @@ https://github.com/Entertech/Enter-Native-SDK-iOS.git
 ```
 
 ## 使用
+
+### 使用流程
+SDK在使用过程中，按照 初始化->进行授权->实时数据计算->获取报表->释放（ARC自动释放） 的流程进行。
 
 ### 头文件引用
 XCODE 13版本及以上创建的工程可以直接添加以下头文件：
@@ -123,7 +127,7 @@ class Demo {
     data.forEach { byte in
         mutableArray.add(NSNumber(value: byte))
     }
-}
+
 
 ```
 
