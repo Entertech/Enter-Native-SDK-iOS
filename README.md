@@ -49,7 +49,7 @@
 
 Package添加下面这行到你的 Package.swift：
 ```
-.package(name: "Enter-Native-SDK-iOS", url: "https://github.com/Entertech/Enter-Native-SDK-iOS.git", from: "1.0.0")
+.package(name: "Enter-Native-SDK-iOS", url: "https://github.com/Entertech/Enter-Native-SDK-iOS.git", from: "1.0.1")
 ```
 
 Project添加下面的链接到你的 Package Dependencies 中：
