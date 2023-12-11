@@ -112,22 +112,14 @@ public:
     /**
      * @brief 获取冥想度报表
      *
-     * @return
+     * @return FLOW
      */
     FlowReportRes getFlowReport();
     AffectiveAlgorithm();
 
+
     ~AffectiveAlgorithm();
 
-    /// @brief 获取脑电数据长度
-    /// @return
-    int eegIndex();
-    /// @brief 获取心率数据长度
-    /// @return
-    int hrIndex();
-    /// @brief 获取睡眠数据长度
-    /// @return
-    int sleepLength();
 
     void setArousalEnable(bool enable);
     void setAttentionEnable(bool enable);

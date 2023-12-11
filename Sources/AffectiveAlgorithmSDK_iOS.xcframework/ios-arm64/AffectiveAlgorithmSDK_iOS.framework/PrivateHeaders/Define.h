@@ -134,8 +134,11 @@ struct PEPRReportRes
 //实时睡眠
 struct SleepTriggerRes
 {
+    bool updateFlag;   //是否更新
     double sleepDegree;  //睡眠程度
     int sleepState;     //睡眠状态
+    int sleepStage;   //睡眠阶段
+    double sleepSpindle; //睡眠抗干扰
 };
 
 //实时心流
@@ -148,8 +151,8 @@ struct FlowTriggerRes
 //实时心率
 struct HRTriggerRes
 {
-    int hr;
-    double hrv;
+    int hr;             // 心率
+    double hrv;         // 心率变异性
 };
 
 //实时脑电

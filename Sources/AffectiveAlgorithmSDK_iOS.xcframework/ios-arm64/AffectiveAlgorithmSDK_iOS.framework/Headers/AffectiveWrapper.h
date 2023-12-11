@@ -207,6 +207,9 @@
 @property (nonatomic, assign) double sleepDegree; // Degree of sleep
 /// 睡眠状态（0:清醒，1:睡着）
 @property (nonatomic, assign) int sleepState; // Sleep state
+@property (nonatomic, assign) int sleepStage;
+@property (nonatomic, assign) double sleepSpindle;
+@property (nonatomic, assign) bool updateFlag;
 @end
 
 /// 实时心流
