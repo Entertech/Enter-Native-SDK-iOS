@@ -331,10 +331,15 @@
 @end
 
 @interface AffectiveHandler : NSObject
-/// 初始号
 - (instancetype)init;
+- (void)dealloc;
+// 停止计算, 需要释放前需要提前先停止, 防止由于蓝牙异步输入原因导致的释放后计算
+- (void)disableCalculate;
+// 开启计算, 初始化默认开启
+- (void)enableCalculate;
+// 返回当前状态, true开启计算, false停止计算
+- (bool)isCalculate;
 
-/// 计算EEG实时
 - (EEGAffectiveResOC *) appendEEG: (NSMutableArray<NSNumber *> *)eegRaw;
 
 /// 计算心率

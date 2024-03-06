@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/libAffectiveAlgorithm.a</key>
 		<data>
-		YxJ5McHgSVIGlDMw1RyMT2QPHM4=
+		vwzRxBOtS3iSz6Usu9GQABivFSg=
 		</data>
 		<key>Headers/AffectiveAlgorithmSDK_iOS.h</key>
 		<data>
@@ -14,23 +14,15 @@
 		</data>
 		<key>Headers/AffectiveWrapper.h</key>
 		<data>
-		RjgQwKdWeNjhHjZB0ebxbWsPyww=
+		rEgTfu8yh90aZHjoN4CYNbGVwHg=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Xni4IqwieHF0ccpB3rlu0PCw5Gs=
+		cNL7XhDEt/U5B5bF84KZrq8AXuk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		rBGcbvtYCCVUI3OzxiPqZMzTmfE=
-		</data>
-		<key>PrivateHeaders/Affective.h</key>
-		<data>
-		Zo5yzvIVFRpIKwWdALTwPBpUCUk=
-		</data>
-		<key>PrivateHeaders/Define.h</key>
-		<data>
-		2c3iZ1ayQW3KfGUVq1omHJ6Clhc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,7 +31,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hg/qn7GkqcoH6Zqnwg38jb8FOuRekeECFYdrly6vVjU=
+			raEGwBzyo8M2eLleAUVU7hz2Je2tQHWUkRVtmBrxmXA=
 			</data>
 		</dict>
 		<key>Headers/AffectiveAlgorithmSDK_iOS.h</key>
@@ -53,7 +45,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lXZdLglOsw33EJ71wWw3NiV+bTXYnocC8dG7d8QSCYY=
+			y1k6LI27FvZA8XEg6Qy1EPybgsuOG/C6/JYHr8zlGVM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -61,20 +53,6 @@
 			<key>hash2</key>
 			<data>
 			WSfsKh+CqEOlI/8PTTlW9WxjTUpATAGIQZC8ExTmCcQ=
-			</data>
-		</dict>
-		<key>PrivateHeaders/Affective.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OtN6cfsjKqEOEXdzfNxy2wcrvqrwopkGY6FjazQKg/8=
-			</data>
-		</dict>
-		<key>PrivateHeaders/Define.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KA26I1ah2Z/MHu16olPw+D/fzcNRcOoLsdx8vzdLqmk=
 			</data>
 		</dict>
 	</dict>
