@@ -1,0 +1,6 @@
+framework module AffectiveAlgorithmSDK_iOS {
+  umbrella header "AffectiveAlgorithmSDK_iOS.h"
+  export *
+
+  module * { export * }
+}

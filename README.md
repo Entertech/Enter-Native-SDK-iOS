@@ -73,7 +73,7 @@ import AffectiveAlgorithmSDK_iOS
 ```
 
 ### 接口头文件查看
-所有用到的接口和封装对象都在[AffectiveWrapper.h](https://github.com/Entertech/Enter-Native-SDK-iOS/blob/main/Sources/AffectiveAlgorithmSDK_iOS.xcframework/ios-arm64/AffectiveAlgorithmSDK_iOS.framework/Headers/AffectiveWrapper.h)中。
+所有用到的接口和封装对象都在[AffectiveWrapper.h](https://github.com/Entertech/Enter-Native-SDK-iOS/blob/main/Sources/AffectiveAlgorithmSDK_iOS.framework/Headers/AffectiveWrapper.h)中。
 
 ### 初始化SDK
 `AffectiveHandler` 是整个 SDK 的入口类，你需要先初始化 `AffectiveHandler`。
@@ -151,7 +151,7 @@ class Demo {
     guard let eegEnable = handler?.getEEGEnable(), eegEnable else {
         return
     }
-    if let result = handler?.appendEEG(mutableArray) {
+    if let result = handler?.appendEEG(mutableArray, isEar: false) {
         // 此处对 result 进行处理, result 类型`EEGAffectiveResOC` 在上方`接口头文件查看`可找到查看入口
     }
 ```
@@ -163,7 +163,7 @@ class Demo {
     guard let sceegEnable = handler?.getSCEEGEnable(), sceegEnable else {
         return
     }
-    if let result = handler?.appendSCEEG(mutableArray) {
+    if let result = handler?.appendSCEEG(mutableArray, isEar: false) {
         // 此处对 result 进行处理, result 类型`SCEEGAffectiveResOC` 在上方`接口头文件查看`可找到查看入口
     }
 ```
